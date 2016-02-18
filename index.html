@@ -7,31 +7,34 @@
     href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext'
     rel='stylesheet' type='text/css'>
     <link rel='stylesheet' type='text/css' href='main.css'>
-  </head>
-  <body>
-    <header>
+</head>
+<body>
+    < header>
     <h1>Hello.</h1>
     </header>
-    <div class="about">
-      <h3>emily baron</h3>
-      <p>Hi. Here you can read all about me.</p>
-    </div>
-    <div class="contact">
-      <h3>let's talk</h3>
-      <a href="www.github.com/embaron"><img src="img/GitHub-Mark-32px.png"></a>
-      <a href="mailto:emilybaron3@gmail.com"><img src="img/email.png"></a>
-    </div>
-    <div class="read">
-      <h3>read</h3>
-      <p>I'll update blogs here about what I'm learning and doing. Stay
-      tuned.</p>
-    </div>
-    <div class="look">
-      <h3>look</h3>
-      <p>In my free time I like to take photos and quilt. Check it out!</p>
-    </div>
-
-
-
+    <button class="menu">about me</buton>
+      <div class="dropdown">
+        <p>Here I'll write a few things about myself.</p>
+      </div>
+      <button class="menu">look</button>
+      <div class="dropdown">
+        <p>I'll put some examples of my work here (photos, quilts, websites,
+        etc.)</p>
+      </div>
+      <button class="menu">contact</button>
+      <div class="dropdown">
+        <p>emilybaron3@gmail.com</p>
+      </div>
+  
+    <script type="text/javascript">
+       var menu = document.getElementsByClassName("dropdown");
+       var i;
+       for (i = 0; i < menu.length; i++) {
+             menu[i].onclick = function(){
+                       this.classList.toggle("active");
+                               this.nextElementSibling.classList.toggle("show");
+             }
+       }
+    </script>
 </body>
 </html>

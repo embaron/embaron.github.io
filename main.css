@@ -1,5 +1,30 @@
+
+
 body {
   font-family: 'Lato', sans-serif;
  }
 
+ button.menu {
+   background-color: #fff;
+   color: #444;
+   padding: 20px;
+   width : 75%
+   text-align: left;
+   border: none;
+   outline: none;
+   transition: 0.4s;
+ }
+
+ button.menu.active, button.menu:hover {
+   background-color: #ddd;
+ }
  
+ div.dropdown {
+   padding 0 20px;
+   background-color: #fff;
+   display: none;
+ }
+
+ div.dropdown.show {
+   display: block !important;
+ }
