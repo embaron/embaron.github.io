@@ -12,28 +12,28 @@
     <header>
     <h1>Hello.</h1>
     </header>
+    <div class="container">
       <button class="menu">about me</button>
       <div class="dropdown">
         <p>Here I'll write a few things about myself.</p>
       </div>
       <button class="menu">look</button>
       <div class="dropdown">
-        <p>I'll put some examples of my work here (photos, quilts, websites,
-        etc.)</p>
+        <p>I'll put some examples of my work here (photos, quilts, websites, etc.)</p>
       </div>
       <button class="menu">contact</button>
       <div class="dropdown">
         <p>emilybaron3@gmail.com</p>
       </div>
-  
+    </div>
     <script>
        var menu = document.getElementsByClassName("menu");
        var i;
        for (i = 0; i < menu.length; i++) {
-             menu[i].onclick = function(){
-                       this.classList.toggle("active");
-                               this.nextElementSibling.classList.toggle("show");
-             }
+         menu[i].onclick = function() {
+           this.classList.toggle("active");
+           this.nextElementSibling.classList.toggle("show");
+         }
        }
      </script>
 </body>
