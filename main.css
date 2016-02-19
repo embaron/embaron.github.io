@@ -9,8 +9,8 @@ body {
  button.menu {
    background-color: #fff;
    color: #444;
-   padding: 20px;
-   width : 100%
+   padding: 20px 30px;
+   width : 75%
    text-align: left;
    border: none;
    outline: none;
