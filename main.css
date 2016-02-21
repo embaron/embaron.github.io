@@ -1,0 +1,41 @@
+body {
+  font-family: 'Lato',arial,sans-serif;
+  font-size: 100%
+  line-height: 1.3em;
+ }
+
+.container {
+  width: 980px;
+  margin-top: 1em;
+  margin-right: auto;
+  margin-bottom: 1em;
+  margin-left: auto;
+}
+
+a.logobar {
+  text-align: left;
+  width: 129px;
+  margin: 2px 0px 0px 20px;
+  float: left;
+  border: none;
+}
+ 
+#wrapper {
+  margin-left: 150px;
+  padding: 5px 0px 0px 20px;
+  float: left;
+  width: 520px;
+}
+
+.wrapper h2 {
+  font-size: 1.375em;
+  margin: 1.5em 0px 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+.wrapper p {
+  font-size: 0.9em;
+  margin: 16px 0px 16px 0px;
+}
+
+
