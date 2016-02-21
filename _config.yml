@@ -1,0 +1,10 @@
+#site settings
+title: Emily Baron
+email: emilybaron3@gmail.com
+url: embaron.github.io
+github_user: embaron
+
+#build settings
+markdown: kramdown
+highlighter: rouge
+
