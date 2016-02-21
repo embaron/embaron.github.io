@@ -5,26 +5,24 @@ body {
  }
 
 .container {
-  width: 980px;
-  margin-top: 1em;
-  margin-right: auto;
-  margin-bottom: 1em;
-  margin-left: auto;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 a.logobar {
   text-align: left;
-  width: 129px;
+  width: 130px;
   margin: 2px 0px 0px 20px;
   float: left;
   border: none;
+  position: fixed;
 }
  
 #wrapper {
-  margin-left: 150px;
+  margin-left: 160px;
   padding: 5px 0px 0px 20px;
-  float: left;
-  width: 520px;
+  max-width: 520px;
+  float: right;
 }
 
 #wrapper h2 {
