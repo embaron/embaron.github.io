@@ -39,3 +39,10 @@ a.logobar {
 .photo {
   max-width: 520px;
 }
+
+/** Mobile **/
+@media only screen and (max-width: 480px) {
+  .logobar {
+    display: hidden;
+  }
+}
