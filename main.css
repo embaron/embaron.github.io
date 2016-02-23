@@ -18,21 +18,21 @@ a.logobar {
   position: fixed;
 }
  
-#wrapper {
-  margin-left: 160px auto;
+.wrapper {
+  margin: 0px auto;
   padding: 5px 0px 0px 20px;
   max-width: 520px;
   float: right;
 }
 
-#wrapper h2 {
+.wrapper h2 {
   font-size: 1.375em;
   margin: 1em 0px 1em 0px;
   border-bottom: 1px solid #ccc;
 }
 
 .wrapper p {
-  font-size: 0.9em;
+  font-size: 1em;
   margin: 16px 0px 16px 0px;
 }
 
@@ -44,5 +44,12 @@ a.logobar {
 @media only screen and (max-width: 650px) {
   .logobar {
     display: none;
+  }
+  .container {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .wrapper {
+    float: none;
   }
 }
