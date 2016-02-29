@@ -9,20 +9,20 @@ body {
   margin: 0 auto;
 }
 
-a.logobar {
+/*a.logobar {
   text-align: left;
   width: 130px;
   margin: 2px 0px 0px 20px;
   float: left;
   border: none;
   position: fixed;
-}
+}*/
  
 .wrapper {
   margin: 0px auto;
   padding: 5px 0px 0px 20px;
   max-width: 520px;
-  float: right;
+  float: center;
 }
 
 .wrapper h2 {
@@ -45,9 +45,9 @@ a.logobar {
 
 /** Mobile **/
 @media only screen and (max-width: 650px) {
-  .logobar {
+  /*.logobar {
     display: none;
-  }
+  }*/
   .container {
     margin: 0 auto;
     width: 100%;
