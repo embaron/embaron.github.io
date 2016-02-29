@@ -48,11 +48,19 @@ body {
 }
 
 .photo {
-  max-width: 100%;
-  height: auto;
+  width: 120px;
+  height: 120px;
   display: block;
+  float: left;
+  padding: 0px 20px;
+  border-left: black solid 1px;
 }
-
+#flickr {
+  margin-top: 25px;
+}
+#rockpaperscissors {
+  margin-top: 25px;
+}
 
 /** Mobile **/
 @media only screen and (max-width: 650px) {
