@@ -44,6 +44,7 @@ body {
 .wrapper p {
   font-size: 1em;
   margin: 1em 0px 1em 0px;
+  text-align: justify;
 }
 
 .photo {
