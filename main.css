@@ -4,11 +4,12 @@ body {
   line-height: 1.3em;
  }
 
+ /*
 .container {
-  max-width: 700px;
+  max-width: auto;
   margin: 0 auto;
 }
-
+*/
 /*a.logobar {
   text-align: left;
   width: 130px;
@@ -30,36 +31,50 @@ body {
 .wrapper {
   margin: 0px auto;
   padding: 5px 0px 0px 20px;
-  max-width: 520px;
+  max-width: 550px;
   float: center;
 }
 
 .wrapper h2 {
   font-size: 1.375em;
-  margin: 1em 0px 1em 0px;
+  margin: 1em 0px;
   border-bottom: 1px solid #ccc;
-  width: 520px;
+  width: 550px;
 }
 
 .wrapper p {
   font-size: 1em;
-  margin: 1em 0px 1em 0px;
+  margin: 0px 0px 1em 0px;
   text-align: justify;
 }
-
+a {
+  text-decoration: none;
+  color: #0e18a5;
+}
 .photo {
   width: 120px;
   height: 120px;
   display: block;
   float: left;
-  padding: 0px 20px;
-  border-left: black solid 1px;
+  padding: 0px 20px 20px 0px;
+  border-right: black solid 1px;
+  margin-right: 20px;
 }
 #flickr {
-  margin-top: 25px;
+  margin: 25px 0px 35px 0px;
 }
 #games.js {
-  margin-top: 25px;
+  margin: 25px 0px 35px 0px;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  /* height: 3em;*/
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
 }
 
 /** Mobile **/
