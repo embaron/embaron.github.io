@@ -10,23 +10,16 @@ body {
   margin: 0 auto;
 }
 */
-/*a.logobar {
-  text-align: left;
-  width: 130px;
-  margin: 2px 0px 0px 20px;
-  float: left;
-  border: none;
-  position: fixed;
-}*/
 .hello {
   overflow: auto;
 }
 .hello h2 {
   position: relative;
 }
-.hello img {
+.hello a {
   float: right;
-  padding: 5px;
+  padding-left: 10px;
+  text-decoration: underline;
 }
 .wrapper {
   margin: 0px auto;
@@ -36,7 +29,7 @@ body {
 }
 
 .wrapper h2 {
-  font-size: 1.375em;
+ /* font-size: 1.375em;*/
   margin: 1em 0px;
   border-bottom: 1px solid #ccc;
   width: 550px;
@@ -52,8 +45,8 @@ a {
   color: #0e18a5;
 }
 .photo {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   display: block;
   float: left;
   padding: 0px 20px 20px 0px;
