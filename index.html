@@ -3,14 +3,80 @@
   <head>
     <meta charset='utf-8/'></meta>
     <title>Emily Baron | Hello</title>
-    <link
-    href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext'
-    rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' type='text/css' href='main.css'>
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    $("button").click(function(){
+        $("#hidephotos").toggle();
+    });
+});</script>
+  </head>
+
 <body>
-  <div class="container">
-   <div class="wrapper">
+  <nav>
+    <ul>
+      <li><a href="#about"><h3>Emily Baron</h3></a></li>
+      <li><a href="#photos">photos</a></li>
+      <li><a href="https://www.github.com/embaron" target="_blank">github</a></li>
+      <!--<li><a href="google.com" target="_blank">designs</a></li>-->
+      <li><a href="google.com" target="_blank">linkedin</a></li>
+      <li><a href="mailto:emilybaron3@gmail.com" target="_blank">email</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">   
+    <div class="main">
+      <h2 id="about">about</h2>
+      <p><u>Things I do</u>: web development (html, css, js, ruby on rails) and bioinformatics (RNA-seq, R, bioconductor, python) </br></br>
+      <u>Things I've done</u>: earned my MSc in Biomedical Sciences at Rutgers University Graduate School of Biomedical Sciences (2016) and my BS in Genetics from Clemson University (2014) </br></br>
+      <u>Things I like</u>: learning new things, art, sewing, bad movies, my cat Davey, sarcasm, chicken parmesan, traveling, scrabble, dogs, camping, building things </br></br> 
+      <u>Things I dislike</u>: ramen, pollen, rude people, bad drivers </p> </br></br>
+      <!--<a href="emilybaron/development/embaron.github.io/img/ResumeEmilyBaron.pdf">resume</a>-->
+    </div>
+
+    <button>Toggle</button>
+
+
+    <div class="photos" id="photos">
+      <h2>photos</h2>
+      <div id="showphotos">
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/emily3333000/18811251302/in/dateposted/" title="Trail at Carl Sandburg Home, NC"><img src="https://farm1.staticflickr.com/301/18811251302_7abd9ea733_n.jpg" width="320" height="213" alt="Trail at Carl Sandburg Home, NC"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+      
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/emily3333000/15754352830/in/dateposted/" title="Color Run 4-12-14"><img src="https://farm8.staticflickr.com/7529/15754352830_be83ab3334_n.jpg" width="320" height="213" alt="Color Run 4-12-14"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+      </div>
+
+      <div id="hidephotos">
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/emily3333000/15755761217/in/dateposted/" title="Art Loeb"><img src="https://farm8.staticflickr.com/7472/15755761217_c54159d7c9_n.jpg" width="320" height="214" alt="Art Loeb"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/emily3333000/6881084625/in/dateposted/" title="Early Morning"><img src="https://farm8.staticflickr.com/7210/6881084625_39f3c6f5d8_n.jpg" width="320" height="214" alt="Early Morning"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/emily3333000/13986036251/in/dateposted/" title="dancers"><img src="https://farm8.staticflickr.com/7102/13986036251_f31bfd4ed1_n.jpg" width="320" height="214" alt="dancers"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/emily3333000/11737685226/in/dateposted/" title="By the River"><img src="https://farm4.staticflickr.com/3723/11737685226_8a3a043742_n.jpg" width="320" height="214" alt="By the River"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/emily3333000/10176923615/in/dateposted/" title="sunrise"><img src="https://farm3.staticflickr.com/2840/10176923615_c57a9a8eaf_n.jpg" width="320" height="215" alt="sunrise"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/emily3333000/9889673055/in/dateposted/" title="23 September 2013"><img src="https://farm8.staticflickr.com/7431/9889673055_c7ef5ee845_n.jpg" width="320" height="214" alt="23 September 2013"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/emily3333000/9340114248/in/dateposted/" title="1"><img src="https://farm8.staticflickr.com/7324/9340114248_9eab8b408d_n.jpg" width="320" height="214" alt="1"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/emily3333000/7770339760/in/dateposted/" title="Untitled"><img src="https://farm9.staticflickr.com/8305/7770339760_1eb2d3abb1_n.jpg" width="320" height="214" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/emily3333000/7671367874/in/dateposted/" title="HoodRatz"><img src="https://farm8.staticflickr.com/7116/7671367874_ef64466876_n.jpg" width="320" height="214" alt="HoodRatz"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/emily3333000/7652852230/in/dateposted/" title="HoodRatz"><img src="https://farm8.staticflickr.com/7273/7652852230_0f87bc4be7_n.jpg" width="320" height="214" alt="HoodRatz"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/emily3333000/7588259778/in/dateposted/" title="Untitled"><img src="https://farm8.staticflickr.com/7247/7588259778_a25dd4b2ae_n.jpg" width="320" height="213" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+        <a data-flickr-embed="true"  href="https://www.flickr.com/photos/emily3333000/15754352830/in/dateposted/" title="Color Run 4-12-14"><img src="https://farm8.staticflickr.com/7529/15754352830_be83ab3334_n.jpg" width="320" height="213" alt="Color Run 4-12-14"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<!--   <div class="wrapper">
       <div class="about">
         <div class="hello">
           <a href="https://www.linkedin.com/in/embaron" target="_blank">linkedin</a>
@@ -22,16 +88,14 @@
         Hello! My name is Emily Baron and I am a front end web developer. I began
         learning basic HTML, CSS, and JavaScript while in college and have since
         immersed myself into the world of front-end development, building
-        personal projects, learning new languages and skills, and solving
-        problems. 
+        personal projects and learning new languages and skills. 
         <br>
-        <br> In addition to coding, I enjoy photography and digital design, skills
-        that have helped me immensely in designing websites. In my free time I
-        enjoy modern quilting, building things, cooking, and spending time outside.</p>
+        <br> In addition to development, I enjoy photography and digital design, skills
+        that have helped me immensely in designing websites. </p>
       <div class="look">
         <h2>look</h2>
         <p><!--In my free time I enjoy coding, photography, graphic design, and
-        quilting.--> Below are some examples of my current and most recent projects and work.</p>
+        quilting. Below are some examples of my current and most recent projects and work.</p>
        <div id="games.js">
           <img class="photo" src="/img/binary.png"></img>
           <p>I am always trying to learn new skills and I keep most of my
@@ -55,12 +119,12 @@
         <p>The best way to contact me is via <a
           href="mailto:emilybaron3@gmail.com">email</a>.</p>
         <p>Feel free to look at my resume.</p>
- </div> -->
+ </div> 
       </div>
-      </div>     
+      </div>
  <footer>
         &copy;
         <a href="mailto: emilybaron3@gmail.com">Emily Baron</a> | 2016
  </footer>
 </body>
-</html>
+</html> -->
