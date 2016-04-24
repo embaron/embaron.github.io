@@ -69,8 +69,26 @@ button {
   background-color: #f44336;
   display: block;
   padding: 5px;
-  margin: 5px;
   color: #ddd;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+button:hover, button:active {
+  background-color: red;
+}
+
+#flickr {
+  width: 633px;
+  background-color: #ddd;
+  color: #f44336;
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+#flickr:hover, #flickr:active {
+  background-color: red;
 }
 
 /* body {
