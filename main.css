@@ -99,7 +99,6 @@ button:hover, button:active {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-
   }
   
   li {
@@ -123,13 +122,17 @@ button:hover, button:active {
     color: #ddd;
     text-align: center;
     font-size: 1em;
+    width: 100%;
   }
 
   nav {
     padding: 0px;
-    margin: 0px 0px 50px 0px;
     width: 100%;
   }
+
+  a[target='_blank']:after {
+  content: none;
+}
 
   li:nth-child(n+2) a:hover, li:nth-child(n+2) a:active {
     background-color: red;
@@ -142,7 +145,7 @@ button:hover, button:active {
 
   .main {
     margin-top: 20px;
-    width: 90%
+    width: auto;
   }
 
   #flickr {
