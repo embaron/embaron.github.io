@@ -1,6 +1,5 @@
 body {
   font-family: 'Lato';
-  margin-top: 50px;
 }
 
 nav {
@@ -49,15 +48,13 @@ li a:hover, a:active {
   background-color: red;
 }
 
-.container {
-  width: 650px;
+.main {
+  width: 55%;
   padding: 15px;
   margin: auto;
-}
-
-.main {
   text-align: justify;
 }
+
 
 h2 {
   color: #f44336;
@@ -87,16 +84,65 @@ button:hover, button:active {
   padding: 5px;
 }
 
+
+
 #flickr:hover, #flickr:active {
   background-color: red;
 }
 
+/* For mobile*/ 
+@media only screen and (max-width: 1100px) {
+  ul {
+    position: static;
+    display: inline;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
 
-/** 
-@media only screen and (max-width: 650px) {
-    .container {
-    margin: 0 auto;
-    width: 100%;
-    height: 100%
   }
-}**/ 
+  
+  li {
+    float: left;
+    display: inline;
+    background-color: none;
+    overflow: hidden;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    padding-right: 5px;
+    font-size: 1em;
+    width: auto;
+    background-color: #f44336;
+  }
+
+  li:nth-child(n+2) a, li h3 {
+    padding: 8px 5px 8px 5px;
+    margin: 0px;
+    background-color: #f44336;
+    color: #ddd;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  nav {
+    padding: 0px;
+    margin: 0px 0px 50px 0px;
+    width: 100%;
+  }
+
+  li:nth-child(n+2) a:hover, li:nth-child(n+2) a:active {
+    background-color: red;
+  } 
+
+  body {
+    margin-top: 10px;
+  }
+
+  .main {
+    margin-top: 20px;
+  }
+
+  #flickr {
+  width: 310px;
+}
