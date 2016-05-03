@@ -157,4 +157,8 @@ button:hover, button:active {
     width: 90%;
   }
 
+  #about {
+    display: none;
+  }
+
 }
