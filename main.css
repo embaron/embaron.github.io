@@ -150,5 +150,11 @@ button:hover, button:active {
   }
 
   #flickr {
-  width: 310px;
+    width: 310px;
+  }
+
+  #designs img {
+    width: 90%;
+  }
+
 }
