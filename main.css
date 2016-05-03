@@ -146,6 +146,7 @@ button:hover, button:active {
 
   .main {
     margin-top: 20px;
+    padding-top: 50px;
     width: auto;
   }
 
