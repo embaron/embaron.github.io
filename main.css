@@ -59,7 +59,6 @@ li a:hover, a:active {
   text-align: justify;
 }
 
-
 h2 {
   color: #f44336;
   margin-top: 20px;
@@ -79,24 +78,108 @@ button:hover, button:active {
   background-color: red;
 }
 
-#flickr {
-  width: 633px;
-  background-color: #ddd;
-  color: #f44336;
-  display: block;
-  text-align: center;
-  padding: 5px;
+.contact a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.25em;
 }
 
+/* horizontal scrolling */
+.photos { 
+  overflow: scroll; width: 700px; height: 440px; 
+}
+#showphotos { 
+  width: 9030px; 
+}
 
-
-#flickr:hover, #flickr:active {
-  background-color: red;
+.thennow { 
+  overflow: scroll; width: 700px; height: 440px; 
+}
+#showthennow { 
+  width: 5805px; 
 }
 
 
 /* For mobile*/ 
 @media only screen and (max-width: 1100px) {
+
+  nav {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .container {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  ul {
+    position: fixed;
+    display: inline;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    display: inline;
+    background-color: none;
+    overflow: hidden;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    padding-right: 5px;
+    font-size: 1em;
+    width: auto;
+    background-color: #f44336;
+  }
+
+  li:nth-child(n+2) a, li h3 {
+    padding: 8px 5px 8px 5px;
+    margin: 0px;
+    background-color: #f44336;
+    color: #ddd;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+  }
+
+  a[target='_blank']:after {
+  content: none;
+}
+
+  li:nth-child(n+2) a:hover, li:nth-child(n+2) a:active {
+    background-color: red;
+  } 
+
+  body {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .main {
+    margin-top: 0px;
+    padding-top: 50px;
+    width: auto;
+  }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+  nav {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .container {
+    padding: 0px;
+    margin: 0px;
+  }
+
   ul {
     position: static;
     display: inline;
@@ -144,18 +227,31 @@ button:hover, button:active {
   } 
 
   body {
-    margin-top: 10px;
+    margin-top: 0px;
     width: 100%;
   }
 
   .main {
-    margin-top: 20px;
-    padding-top: 50px;
+    margin-top: 0px;
+    padding-top: 75px;
     width: auto;
   }
 
-  #flickr {
+  #photos {
     width: 310px;
+  }
+
+  img {
+    width: 290px;
+    height: 193px;
+  }
+
+  .photos { 
+    overflow: scroll; height: 215px; 
+  }
+
+  #showphotos { 
+    width: 4550px; 
   }
 
   #designs img {
