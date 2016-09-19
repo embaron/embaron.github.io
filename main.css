@@ -167,7 +167,6 @@ button:hover, button:active {
 }
 
 
-
 @media only screen and (max-width: 500px) {
 
   nav {
@@ -181,7 +180,7 @@ button:hover, button:active {
   }
 
   ul {
-    position: static;
+    position: fi;
     display: inline;
     list-style-type: none;
     margin: 0px;
@@ -237,7 +236,7 @@ button:hover, button:active {
     width: auto;
   }
 
-  #photos {
+  #photos, #thennow {
     width: 310px;
   }
 
@@ -251,15 +250,19 @@ button:hover, button:active {
   }
 
   #showphotos { 
-    width: 4550px; 
+    width: 4130px; 
+  }
+
+  .thennow { 
+    overflow: scroll; height: 215px; 
+  }
+
+  #showthennow { 
+    width: 2655px; 
   }
 
   #designs img {
     width: 90%;
-  }
-
-  #about {
-    display: none;
   }
 
 }
