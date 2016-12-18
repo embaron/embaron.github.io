@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato',Arial,sans-serif;
+  font-family: 'Inconsolata',Arial,sans-serif;
 }
 
 .container {
@@ -89,14 +89,21 @@ button:hover, button:active {
   overflow: scroll; width: 700px; height: 440px; 
 }
 #showphotos { 
-  width: 9030px; 
+  width: 7790px; 
 }
 
 .thennow { 
   overflow: scroll; width: 700px; height: 440px; 
 }
 #showthennow { 
-  width: 5805px; 
+  width: 5885px; 
+}
+
+.designs { 
+  overflow: scroll; width: 700px; height: 440px; 
+}
+#showdesigns { 
+  width: 3280px; 
 }
 
 
@@ -236,7 +243,7 @@ button:hover, button:active {
     width: auto;
   }
 
-  #photos, #thennow {
+  #photos, #thennow, #designs {
     width: 310px;
   }
 
@@ -250,7 +257,7 @@ button:hover, button:active {
   }
 
   #showphotos { 
-    width: 4130px; 
+    width: 3600px; 
   }
 
   .thennow { 
@@ -258,13 +265,15 @@ button:hover, button:active {
   }
 
   #showthennow { 
-    width: 2655px; 
+    width: 2675px; 
   }
 
-  #designs img {
-    display: block;
-    width: auto;
-    width: auto;
+  .designs { 
+    overflow: scroll; height: 215px; 
+  }
+
+  #showdesigns { 
+    width: 1555px; 
   }
 
 }
