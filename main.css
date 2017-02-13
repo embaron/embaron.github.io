@@ -84,7 +84,7 @@ button:hover, button:active {
   font-size: 1.25em;
 }
 
-/* horizontal scrolling */
+/* horizontal scrolling
 .photos { 
   overflow: scroll; width: 700px; height: 440px; 
 }
@@ -105,7 +105,7 @@ button:hover, button:active {
 #showdesigns { 
   width: 3280px; 
 }/
-
+*/
 
 /* For mobile*/ 
 @media only screen and (max-width: 1100px) {
@@ -228,6 +228,7 @@ button:hover, button:active {
   content: none;
 }
 
+/*
   li:nth-child(n+2) a:hover, li:nth-child(n+2) a:active {
     background-color: red;
   } 
