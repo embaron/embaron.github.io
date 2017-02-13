@@ -99,12 +99,12 @@ button:hover, button:active {
   width: 5885px; 
 }
 
-.designs { 
+/*.designs { 
   overflow: scroll; width: 700px; height: 440px; 
 }
 #showdesigns { 
   width: 3280px; 
-}
+}/
 
 
 /* For mobile*/ 
@@ -267,10 +267,10 @@ button:hover, button:active {
   #showthennow { 
     width: 2675px; 
   }
-
+/*
   .designs { 
     overflow: scroll; height: 215px; 
-  }
+  }*/
 
   #showdesigns { 
     width: 1555px; 
