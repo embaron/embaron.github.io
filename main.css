@@ -29,10 +29,14 @@ a {
   text-decoration: none;
 }
 
+/*
 a[target='_blank']:after {
   content: ' \29C9';
   font-size: .8em;
-}
+  color: #029dc0;
+}*/
+
+
 
 li h3 {
   color: #f44336;
