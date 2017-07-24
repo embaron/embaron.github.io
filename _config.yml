@@ -4,6 +4,8 @@ email: emilybaron3@gmail.com
 url: embaron.github.io
 github_user: embaron
 
+greeting: Hello
+
 #build settings
 markdown: kramdown
 highlighter: rouge
