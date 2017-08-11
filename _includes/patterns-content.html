@@ -1,0 +1,20 @@
+{% assign loopindex = 0 %}
+<div class="container_main_patterns">
+  {% for content in site.data.patterns %}
+  {% assign loopindex = loopindex | plus: 1 %}
+  {% assign rowfinder = loopindex | modulo: site.number_of_items_in_row %}
+  {% if rowfinder == site.number_of_items_in_row %}
+  <div class="row">
+    {% endif %}
+
+    <div class="col-md-{{ site.number_of_items_in_row }}">
+        <img src={{ content.location }} alt={{ content.name }} width="90%">
+      </div>
+    </div>
+ 
+  {% if rowfinder == site.number_of_items_in_row %}
+  </div>
+  {% endif %}
+  
+  {% endfor %}
+</div>

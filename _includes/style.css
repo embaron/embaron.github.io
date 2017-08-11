@@ -1,52 +1,66 @@
 body {
-  font-family: 'Dosis',Helvetica,sans-serif;
+  font-family: 'Lato',Helvetica,sans-serif;
   overflow-y: scroll;
   overflow-x: hidden;
 }
+
+
 h3 {
-  text-align: center;
-  font-size: 1.25em;
-  color: #333333;
+  color: #666666;
+  font-family: 'Dosis';
 }
 
-h3:hover {
-  color: #993366;
+h1 {
+  font-family: 'Dosis';
+  font-weight: bold;
+  margin-left: 2%;
+}
+
+h4 {
+  color: #bbbbbb;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 2em;
+}
+
+nav {
+    font-family: 'Dosis';
 }
 
 a:hover {
     text-decoration: none;
 }
 
-/*
-.imgoverlay {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 1;
-  transition: .5s ease;
-  background-color: #ffffff;
+.col-md-3 {
+    padding: 10px;
 }
 
-
-.col-sm-4:hover h3 {
-  color: #993366;
-  font-weight: bold; 
+#project-details1 {
+  /*background-color: #efefef;*/
+  background-image: url(../assets/images/subtle_dots.png);
+  padding: 2%;
 }
 
-.imgoverlay:hover {
-  opacity: .5;
+#project-details2 {
+  padding: 2%;
 }
-*/
+
+#project-info {
+  padding: 20px;
+}
 
 .navbar-default .navbar-brand {
   color: #993366;
 }
 
-.container_main {
-  padding-top: 5%;
+.container_main_projects, .container_main_patterns, .container_main_misc {
+  padding-top: 60px;
+}
+
+.container_about {
+  padding: 60px;
 }
 
 .navbar {

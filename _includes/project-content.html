@@ -1,19 +1,28 @@
-<div class="container_main">
-  <div class="row">
-    <div class="col-md-6">
-      <a href="projectdetail001.html">
-        <div class="imgoverlay">
-        <img src="thumbnails/chronicle_preview.png" alt="projects" width="90%">
-        </div>
-      </a>  
-    </div>
+{% assign loopindex = 0 %}
+<div class="container_main_projects">
+  {% for post in site.posts %}
+  {% if post.categories contains "projects" %}
 
-    <div class="col-md-6">
-      <a href="projectdetail002.html">
+  {% assign loopindex = loopindex | plus: 1 %}
+  {% assign rowfinder = loopindex | modulo: 4 %}
+  {% if rowfinder == site.number_of_items_in_row %}
+  <div class="row">
+    {% endif %}
+
+    <div class="col-md-4">
+      <a href={{ post.url }} >
         <div class="imgoverlay">
-        <img src="thumbnails/bbbc_preview.png" alt="projects" width="90%">
+          <img src={{ post.image-src }} alt={{ post.title }} width="90%">
         </div>
       </a>  
     </div>
+ 
+  {% if rowfinder == site.number_of_items_in_row %}
   </div>
+  {% endif %}
+  
+  {% endif %}
+  {% endfor %}
 </div>
+
+

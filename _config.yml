@@ -9,4 +9,6 @@ greeting: Hello
 #build settings
 markdown: kramdown
 highlighter: rouge
+permalink: /:categories/:title
 
+number_of_items_in_row: 3

@@ -1,0 +1,10 @@
+name,location
+cube-pattern,./thumbnails/pattern_cube.png
+f-pattern,./thumbnails/pattern_f.png
+hex-pattern,./thumbnails/pattern_hex.png
+falling-pattern,./thumbnails/pattern_falling.png
+patch-pattern,./thumbnails/pattern_patch.png
+tent-pattern,./thumbnails/pattern_tent.png
+w-pattern,./thumbnails/pattern_w.png
+water-pattern,./thumbnails/pattern_water.png
+
