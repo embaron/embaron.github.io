@@ -4,7 +4,7 @@
   {% if post.categories contains "projects" %}
 
   {% assign loopindex = loopindex | plus: 1 %}
-  {% assign rowfinder = loopindex | modulo: 4 %}
+  {% assign rowfinder = loopindex | modulo: 3 %}
   {% if rowfinder == site.number_of_items_in_row %}
   <div class="row">
     {% endif %}

@@ -14,7 +14,7 @@ published: true
     <br>
     <p><b>Responsibilities:</b> Product design (iOS app design, web design, project management), <a href="https://www.onechronicle.com/brand-guidelines/">branding</a>, communication graphics, analytics</p>
     <p><b>Primary Tools:</b> Sketch App, Invision App, Photoshop, Illustrator</p>
-    <p><b><a href="www.onechronicle.com">www.OneChronicle.com</a></b></p>
+    <p><b><a href="https://www.onechronicle.com">www.OneChronicle.com</a></b></p>
   </div>
   <div class="col-md-8">
       <img src="./images/chronicle_preview.png" width="100%">

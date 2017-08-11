@@ -29,7 +29,7 @@ published: true
     <h3>Original Plan</h3>
       <p>I like data. I like visualizing data and collecting data. I like all sorts of data. I also like the idea of hyper-personalized apps. My first idea for this project was to have a way to keep track of my personal food data including frequently bought grocery items, restaurants eaten at, and recipes made. 
 
-      After a rough post-it note app map, I realized the "restaurants eaten at" feature was too intensive for what I wanted to do, plus there's already a <em>pretty</em> <a href="www.yelp.com"> company already established and doing just that.</a></p>
+      After a rough post-it note app map, I realized the "restaurants eaten at" feature was too intensive for what I wanted to do, plus there's already a <em>pretty</em> well established <a href="https://www.yelp.com">company</a> already doing just that.</p>
     <br>
   </div>
   <div class="col-md-8">
