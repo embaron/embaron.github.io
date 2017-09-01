@@ -1,4 +1,6 @@
 name,location
+pattern,./thumbnails/pattern_f.png
+hex,./thumbnails/pattern_hex.png
 rainbow,./thumbnails/rainbow-01.png
 swoop,./thumbnails/swoop-01.png
 272graphic,./thumbnails/272.png
@@ -7,7 +9,9 @@ graphic,./thumbnails/folded-01.png
 graphic,./thumbnails/outrun2-01.png
 graphic,./thumbnails/bows-01.png
 graphic,./thumbnails/brane.jpg
+pattern,./thumbnails/pattern_falling.png
 graphic,./thumbnails/254.png
+pattern,./thumbnails/pattern_w.png
 graphic,./thumbnails/208.jpg
 painting,./thumbnails/feb2017_1.jpg
 graphic,./thumbnails/swooonp-01.png
@@ -18,4 +22,4 @@ graphic,./thumbnails/218.png
 graphic,./thumbnails/badbird.jpg
 graphic,./thumbnails/202.jpg
 self,./thumbnails/self3.jpg
-painting,./thumbnails/feb2017_3.jpg
+pattern,./thumbnails/pattern_cube.png
