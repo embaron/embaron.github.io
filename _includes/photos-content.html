@@ -1,0 +1,21 @@
+{% assign loopindex = 0 %}
+<div class="container_main_misc">
+  {% for content in site.data.misc %}
+  {% assign loopindex = loopindex | plus: 1 %}
+  {% assign rowfinder = loopindex | modulo: 3 %}
+  {% if rowfinder == site.number_of_items_in_row %}
+  <div class="row">
+    {% endif %}
+
+    <div class="col-md-3">
+      <div class="imgoverlay">
+        <img src={{ content.location }} alt={{ content.name }} width="90%">
+      </div>
+    </div>
+ 
+  {% if rowfinder == site.number_of_items_in_row %}
+  </div>
+  {% endif %}
+  
+  {% endfor %}
+</div>
