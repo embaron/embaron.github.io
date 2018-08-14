@@ -1,6 +1,6 @@
 {% assign loopindex = 0 %}
 <div class="container_main_misc">
-  {% for content in site.data.misc %}
+  {% for content in site.data.photos %}
   {% assign loopindex = loopindex | plus: 1 %}
   {% assign rowfinder = loopindex | modulo: 3 %}
   {% if rowfinder == site.number_of_items_in_row %}
