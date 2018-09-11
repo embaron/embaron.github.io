@@ -10,6 +10,7 @@ published: true
 
 <div id="project-info" class="row">
   <div class="col-md-12">
+    <p style="color:grey;">Summer 2017</p>
     <p>Tried and True is a design for a simple personal recipe cookbook. The user is able to add new recipes, search for favorites, and create new categories.</p>
     <br>
     <p><b>Primary Tools:</b> Sketch App, Marvel, Photoshop</p>

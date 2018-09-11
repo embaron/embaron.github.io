@@ -1,5 +1,6 @@
 name,location
 pattern,./thumbnails/pattern_f.png
+quilt,./thumbnails/quilt-autumn.jpg
 hex,./thumbnails/pattern_hex.png
 rainbow,./thumbnails/rainbow-01.png
 swoop,./thumbnails/swoop-01.png
@@ -8,8 +9,9 @@ graphic,./thumbnails/apron-01.png
 graphic,./thumbnails/folded-01.png
 graphic,./thumbnails/outrun2-01.png
 graphic,./thumbnails/bows-01.png
-graphic,./thumbnails/brane.jpg
 pattern,./thumbnails/pattern_falling.png
+graphic,./thumbnails/brane.jpg
+quilt,./thumbnails/quilt_blue.jpg
 graphic,./thumbnails/254.png
 pattern,./thumbnails/pattern_w.png
 graphic,./thumbnails/208.jpg
@@ -23,3 +25,5 @@ graphic,./thumbnails/badbird.jpg
 graphic,./thumbnails/202.jpg
 self,./thumbnails/self3.jpg
 pattern,./thumbnails/pattern_cube.png
+quilt,./thumbnails/quilt.jpg
+explode,./thumbnails/explode.png

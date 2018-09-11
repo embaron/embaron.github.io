@@ -10,6 +10,7 @@ published: true
 
 <div id="project-info" class="row">
   <div class="col-md-4">
+    <p style="color:grey;">2016 - 2017</p>
     <p>Chronicle is a platform that enables users with shared experiences and interests to collaborate and share photos with the world. In early 2016 I joined Chronicle and began work on their iOS MVP design. Since then I have designed and seen the app through public launch to the App Store and website. </p>
     <br>
     <p><b>Responsibilities:</b> Product design (iOS app design, web design, project management), <a href="https://www.onechronicle.com/brand-guidelines/">branding</a>, communication graphics, analytics</p>
